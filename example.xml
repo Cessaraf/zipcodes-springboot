@@ -1,0 +1,25 @@
+<NewDataSet>
+<xsd:schema targetNamespace="NewDataSet" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:sqltypes="http://schemas.microsoft.com/sqlserver/2004/sqltypes" elementFormDefault="qualified">
+<xsd:import namespace="http://schemas.microsoft.com/sqlserver/2004/sqltypes" schemaLocation="http://schemas.microsoft.com/sqlserver/2004/sqltypes/sqltypes.xsd"/>
+<xsd:element name="table">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="d_codigo" minOccurs="0">
+<xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth">
+<xsd:maxLength value="5"/></xsd:restriction></xsd:simpleType></xsd:element>
+<xsd:element name="d_asenta" minOccurs="0">
+<xsd:simpleType>
+<xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth"><xsd:maxLength value="60"/></xsd:restriction>
+</xsd:simpleType></xsd:element><xsd:element name="d_tipo_asenta" minOccurs="0"><xsd:simpleType>
+<xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth"><xsd:maxLength value="40"/></xsd:restriction>
+</xsd:simpleType></xsd:element><xsd:element name="D_mnpio" minOccurs="0">
+<xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth">
+<xsd:maxLength value="50"/></xsd:restriction></xsd:simpleType></xsd:element><xsd:element name="d_estado" minOccurs="0">
+<xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth">
+<xsd:maxLength value="35"/></xsd:restriction></xsd:simpleType></xsd:element><xsd:element name="d_ciudad" minOccurs="0">
+<xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth"><xsd:maxLength value="50"/></xsd:restriction></xsd:simpleType></xsd:element><xsd:element name="d_CP" minOccurs="0"><xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth"><xsd:maxLength value="5"/></xsd:restriction></xsd:simpleType></xsd:element><xsd:element name="c_estado" minOccurs="0"><xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth"><xsd:maxLength value="2"/></xsd:restriction></xsd:simpleType></xsd:element><xsd:element name="c_oficina" minOccurs="0"><xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth"><xsd:maxLength value="5"/></xsd:restriction></xsd:simpleType></xsd:element><xsd:element name="c_CP" minOccurs="0"><xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth"><xsd:maxLength value="5"/></xsd:restriction></xsd:simpleType></xsd:element><xsd:element name="c_tipo_asenta" minOccurs="0"><xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth"><xsd:maxLength value="2"/></xsd:restriction></xsd:simpleType></xsd:element><xsd:element name="c_mnpio" minOccurs="0"><xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth"><xsd:maxLength value="3"/></xsd:restriction></xsd:simpleType></xsd:element><xsd:element name="id_asenta_cpcons" minOccurs="0"><xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth"><xsd:maxLength value="4"/></xsd:restriction></xsd:simpleType></xsd:element><xsd:element name="d_zona" minOccurs="0"><xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth"><xsd:maxLength value="40"/></xsd:restriction></xsd:simpleType></xsd:element><xsd:element name="c_cve_ciudad" minOccurs="0"><xsd:simpleType><xsd:restriction base="sqltypes:nvarchar" sqltypes:localeId="3082" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth"><xsd:maxLength value="2"/></xsd:restriction></xsd:simpleType></xsd:element></xsd:sequence></xsd:complexType></xsd:element></xsd:schema>
+<table xmlns="NewDataSet"><d_codigo>01000</d_codigo><d_asenta>San Ángel</d_asenta><d_tipo_asenta>Colonia
+</d_tipo_asenta><D_mnpio>Álvaro Obregón</D_mnpio><d_estado>Ciudad de México</d_estado><d_ciudad>Ciudad de México</d_ciudad>
+<d_CP>01001</d_CP><c_estado>09</c_estado><c_oficina>01001</c_oficina><c_CP></c_CP><c_tipo_asenta>09</c_tipo_asenta><c_mnpio>010</c_mnpio>
+<id_asenta_cpcons>0001</id_asenta_cpcons>
+<d_zona>Urbano</d_zona><c_cve_ciudad>01</c_cve_ciudad></table></NewDataSet>
